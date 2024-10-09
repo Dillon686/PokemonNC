@@ -1,0 +1,55 @@
+body {
+    background-color: #379A8C;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr .7fr 10fr;
+    width: 70%;
+    height: 96vh;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+#grid-container > div {
+    border-radius: 5px;
+}
+
+#header {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background-color: #379A8C;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#state-logo {
+    height: 5rem;
+}
+
+#pokeball-logo {
+    height: 3rem;
+    margin-left: -20px;
+}
+
+#nav {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+#nav a {
+    color: #ed5564;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.white {
+    background-color: whitesmoke;
+}
